@@ -15,7 +15,9 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-family: "Cabin Sketch", sans-serif;
+            font-weight: 700;
+            font-style: normal;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -46,8 +48,20 @@
             font-size: 4rem;
             margin-bottom: 1rem;
         }
+
+        .link-direct {
+            color: #8344cc;
+            cursor: pointer;
+            text-decoration: revert-layer;
+        }
     </style>
-    <script src="https://cdn.counter.dev/script.js" data-id="25791e2b-dbde-4cc5-89c9-cb67d31e4ac8" data-utcoffset="-3"></script>
+    <script src="https://cdn.counter.dev/script.js" data-id="25791e2b-dbde-4cc5-89c9-cb67d31e4ac8"
+        data-utcoffset="-3"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -56,16 +70,17 @@
         <div class="emoji">🚧</div>
         <p>Portfolio still under construction.</p>
         <p>For more information, please visit my LinkedIn:</p>
-        <br>
         <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="dark"
             data-type="HORIZONTAL" data-vanity="thayanesantosweb" data-version="v1">
-            <br>
-            <span>Or click the link below:</span>
             <a class="badge-base__link LI-simple-link"
                 href="https://br.linkedin.com/in/tmsantosweb/pt?trk=profile-badge" target="_blank">
-                <p>Thayane Santos - Front-end Developer</p>
             </a>
         </div>
+        <br>
+        <!-- <span>Or click the link below:</span> -->
+        <a class="link-direct" href="https://br.linkedin.com/in/tmsantosweb/pt?trk=profile-badge" target="_blank">
+            <p>Thayane Santos - Front-end Developer</p>
+        </a>
     </div>
 </body>
 
